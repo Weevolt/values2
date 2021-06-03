@@ -1,15 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "Government intervention in the economy is necessary to protect consumers.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -144,11 +135,11 @@ questions = [
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "We should not enter wars unless we are attacked.",
         "effect": {
             "econ": 0,
             "dipl": -10,
-            "govt": -10,
+            "govt": 0,
             "scty": 0
         }
     },
@@ -180,15 +171,6 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
         "question": "Wars do not need to be justified to other countries.",
         "effect": {
             "econ": 0,
@@ -198,18 +180,18 @@ questions = [
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "Endless war is a waste of money.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
-            "govt": 10,
+            "dipl": -10,
+            "govt": 0,
             "scty": 0
         }
     },
     {
         "question": "International aid is a waste of money.",
         "effect": {
-            "econ": -5,
+            "econ": 0,
             "dipl": -10,
             "govt": 0,
             "scty": 0
@@ -252,21 +234,12 @@ questions = [
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "It is important that we spread values of democracy and tolorance to the rest of the world.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Our nation's values should be spread as much as possible.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "dipl": 10,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
@@ -342,15 +315,6 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
         "question": "It is important that the government follows the majority opinion, even if it is wrong.",
         "effect": {
             "econ": 0,
@@ -369,15 +333,6 @@ questions = [
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
         "question": "Environmental regulations are essential.",
         "effect": {
             "econ": 5,
@@ -387,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "A better world will come from cultural and scientific progress.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -432,15 +387,6 @@ questions = [
         }
     },
     {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
         "question": "It is important that we work as a united world to combat climate change.",
         "effect": {
             "econ": 0,
@@ -469,15 +415,6 @@ questions = [
     },
     {
         "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -609,24 +546,6 @@ questions = [
             "dipl": 10,
             "govt": 0,
             "scty": 0
-        }
-    },
-    {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
-        "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we further my group's goals above all others.",
-        "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
         }
     }
 ];
